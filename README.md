@@ -1,0 +1,1 @@
+In each of the 2 project there is a README.md file, please read them first.

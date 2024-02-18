@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webcomponents Diabolocom</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app">
+      <h1>Group 1</h1>
+      <my-counter group="1"></my-counter>
+      <my-metrics group="1"></my-metrics>
+      <my-reset group="1"></my-reset>
+      <my-locale group="1"></my-locale>
+      <h1>Group 2</h1>
+      <my-counter group="2"></my-counter>
+      <my-metrics group="2"></my-metrics>
+      <my-reset group="2"></my-reset>
+      <my-locale group="2"></my-locale>
+    </div>
+    <script type="module">
+      import { register } from "./dist/index.js";
+      register()
+    </script>
+  </body>
+</html>
